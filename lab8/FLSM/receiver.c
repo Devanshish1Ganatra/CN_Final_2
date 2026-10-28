@@ -44,9 +44,6 @@ void algorithm(char ip[], int subnet, int prefix) {
             val = val + arr[i];
         }
 
-        if (group > 0) {
-            strcat(ans, ".");
-        }
 
         sprintf(ans + strlen(ans), "%d", val);
     }
